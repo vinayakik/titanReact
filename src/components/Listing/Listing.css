@@ -1,0 +1,216 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+.container2 {
+    width: 100%;
+    margin-top: 2%;
+    /* border-color: red; */
+    display: flex;
+
+}
+
+.filter-block {
+    width: 20%;
+    height: 100vh;
+    border-right: 1px solid grey;
+    line-height: 1.1;
+    position: sticky;
+    top: 50px;
+    padding: 1%;
+}
+
+.filters {
+    line-height: 1.5;
+    margin-left: 8%;
+}
+
+.heading {
+    font-size: 20px;
+    font-weight: bold;
+    /* text-align: center; */
+    margin: 5% 10%;
+    /* color: beige; */
+}
+
+.content-list {
+    width: 80%;
+    /* border: 2px solid green; */
+    display: flex;
+    margin: 0 1%;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.content-list a {
+    color: black;
+    text-decoration: none;
+}
+.content-list a:hover {
+    text-decoration: none;
+    color: black;
+    /* transform: translate(5px,5px); */
+    transform: scale(1.04);
+  }
+
+.list_card {
+    width: 300px;
+    height: 350px;
+    margin: 1%;
+    /* border: 1px solid grey; */
+    display: flex;
+    flex-direction: column;
+}
+
+.imageDiv {
+    width: 80%;
+    height: 250px;
+    margin: 1% 10%;
+    /* border: 1px solid red; */
+
+}
+
+.list_card img {
+    height: 95%;
+    width: 95%;
+    border-radius: 15px;
+    margin: 2%;
+}
+
+.L_card-content .watchName {
+    font-size: 15px;
+    font-weight: bolder;
+}
+
+.L_card-content {
+    /* background-color: beige; */
+    margin-top: 2%;
+    line-height: 1.6;
+    height: 90px;
+    text-align: center;
+}
+
+/* Responsiveness for content-list block */
+
+@media (max-width:1292px) {
+
+    .list_card {
+        width: 270px;
+        height: 310px;
+    }
+
+    .imageDiv {
+        width: 80%;
+        height: 230px;
+    }
+}
+
+@media (max-width:1162px) {
+
+    .list_card {
+        width: 250px;
+        height: 300px;
+    }
+
+    .imageDiv {
+        width: 80%;
+        height: 230px;
+    }
+}
+
+@media (max-width:1112px) {
+
+    .list_card {
+        width: 230px;
+        height: 280px;
+    }
+
+    .imageDiv {
+        width: 80%;
+        height: 230px;
+    }
+
+    .heading {
+        font-size: 18px;
+        font-weight: bold;
+    }
+}
+
+@media (max-width:1000px) {
+
+    .list_card {
+        width: 300px;
+        height: 330px;
+    }
+
+    .imageDiv {
+        width: 80%;
+        height: 280px;
+    }
+
+    .filter-block {
+        width: 28%;
+        padding: 1%;
+    }
+}
+
+@media (max-width:915px) {
+
+    .list_card {
+        width: 250px;
+        height: 300px;
+    }
+
+    .imageDiv {
+        width: 90%;
+        margin: 0 5%;
+        height: 210px;
+    }
+}
+
+@media (max-width:768px) {
+
+    .list_card {
+        width: 220px;
+        height: 280px;
+    }
+
+    .heading {
+        font-size: 15px;
+        font-weight: bold;
+    }
+}
+
+@media (max-width:680px) {
+
+    .list_card {
+        width: 300px;
+        height: 330px;
+    }
+
+    .imageDiv {
+        width: 80%;
+        height: 280px;
+        margin: 0 10%;
+    }
+
+    .filter-block {
+        width: 45%;
+        padding: 1%;
+    }
+}
+
+@media (max-width:515px) {
+
+    .list_card {
+        width: 250px;
+        height: 280px;
+    }
+
+    .imageDiv {
+        width: 90%;
+        margin: 0 5%;
+        height: 190px;
+    }
+}

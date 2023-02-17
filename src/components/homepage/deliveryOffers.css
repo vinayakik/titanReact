@@ -1,0 +1,39 @@
+/* Below code is for styling delivery offers-------------------------------------------- */
+
+.delivery-container {
+    width: 98;
+    /* border: 2px solid red; */
+    display: flex;
+    border-top: 1px solid black;
+    padding-top: 1.5%;
+    margin-top: 10px;
+  
+  }
+  
+  
+  .delivery-card {
+    width: 30%;
+    /* border: 2px solid black; */
+    text-align: center;
+    margin-left: 2%;
+  }
+  .delivery-card .icon img{
+  border-radius: 5px;
+  background-color: white;
+  }
+  .message p{
+    font-size: small;
+  }
+  
+  .info {
+    width: 95%;
+    margin: 0 2.5%;
+  }
+  
+  .info h5 {
+    font-weight: bold;
+  }
+  .info p{
+    font-size: small;
+  
+  }

@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&family=Roboto+Slab&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
+
+/* Item Details page styling--------------------------- */
+.container3{
+  display: flex;
+  /* border: 2px solid red; */
+  height: auto;
+  margin: 1%;
+}
+.watchImg{
+  width: 50%;
+  /* border: 2px solid rgb(1, 1, 1); */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.watchImg img{
+  width: 400px;
+  border-radius: 50px;
+
+}
+.item-details{
+  width: 50%;
+  /* border: 2px solid green; */
+  padding: 2%;
+  line-height:2;
+}
+
+.item-details h1{
+  font: bold 28px "Playfair Display";
+  margin-bottom: -4px;
+}
+
+.MRP{
+  font-size: 20px;
+  font-weight: bold;
+}
+.warranty{
+  font-weight: bold;
+}
+.net-label{
+  font-weight: 400;
+}
+.unitQty input{
+  padding-left:20px;
+}
+.add-to-cart{
+  padding: 15px 80px;
+  background-color: #00b1ae;
+  color: white;
+  border: none;
+}
+
+@media (max-width:620px){
+  .container3{
+    flex-direction: column;
+    /* border: 2px solid red; */
+    align-items: center;
+    height: auto;
+    margin: 1%;
+  }
+  .watchImg{
+    width: 98%;
+    /* border: 2px solid rgb(1, 1, 1); */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .watchImg img{
+    width: 400px;
+    border-radius: 50px;
+  
+  }
+  .item-details{
+    width: 98%;
+    /* border: 2px solid green; */
+    padding: 2%;
+    line-height:2;
+  }
+  #proceed-btn{
+    text-align: center;
+  }
+}
+
+#proceed-btn{
+  text-align: center;  
+}
+.proceed-btn{
+  padding: 18px 93px;
+  background-color: #00b1ae;
+  color: white;
+  border: none;
+  margin:  -20px  0px   20px 325px;
+
+}

@@ -1,0 +1,116 @@
+/* Below styling is for SHOP FOR section------------------------------------------------- */
+/* .container1 {
+  position: relative;
+  position: static;
+} */
+
+.shop-container {
+    width: 100%;
+    height: 380px;
+    background-color: #f4f4f4;
+    /* border: 2px solid red; */
+  }
+  
+  .shop-for {
+    padding-top: 2%;
+    text-align: center;
+    font: bold 28px "Playfair Display";
+  }
+  
+  .card-container {
+    width: 100%;
+    /* border: 2px solid black; */
+    height: 300px;
+    display: flex;
+    /* padding: 0% 0%; */
+    overflow: auto;
+    /* transition: transform 450ms; */
+  }
+  
+  .card {
+    width: 280px;
+    margin: 1% 1.5%;
+    /* height:260px; */
+    /* border: 2px solid green; */
+  }
+  
+  .card-image {
+    height: 80%;
+    width: 68%;
+    margin: 0 16%;
+    /* border:2px solid red; */
+  }
+  
+  .card-image img {
+    height: 100%;
+    /* width: 80%; */
+    /* border: 2px solid rebeccapurple; */
+    
+  }
+  
+  .card-content {
+    /* text-align: center; */
+    height: 20%;
+    /* border:2px solid darkorchid */
+  }
+  
+  .card-content>a {
+    color: black;
+    font-weight: bold;
+    margin-left: 32%;
+  }
+  /* Below code is for Responsive SHOP FOR section------------------------------------------------ */
+  @media screen and (max-width:770px){
+    .shop-container {
+      width: 100%;
+      height: auto;
+      background-color: #f4f4f4;
+      /* border: 2px solid red; */
+    }
+    
+    .shop-for {
+      padding-top: 1%;
+      font: bold 20px "Playfair Display";
+    }
+    
+    .card-container {
+      width: 100%;
+      height: auto;
+      /* border: 2px solid black; */
+      display: inline-block;
+    }
+    
+    .card {
+      width: 30%;
+      margin: 1% 1%;
+      height:30%;
+      /* border: 2px solid green; */
+      display: inline-block; 
+    }
+    
+    .card-image {
+      height: 80%;
+      width: 80%;
+      /* border:2px solid blue; */
+      margin: 0 10%;
+    }
+    
+    .card-image img {
+      height: 100%;
+      width: 100%;
+      
+    }
+    
+    .card-content {
+      /* text-align: left; */
+      margin-top: 2%;
+      height: 10%;
+      /* border:2px solid darkorchid */
+      font-size: small;
+      font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    }
+    .card-content >a {
+      margin-left: 0;
+    }
+  }
+  

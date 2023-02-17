@@ -1,0 +1,41 @@
+
+/* below code is for images of smrt watch,xylys, tommy and fastrack buds----------------------- */
+.catagories {
+    width: 100%;
+    height: auto;
+    /* display: inline-block; */
+    /* background-color: aqua; */
+    text-align: center;
+    margin: 2% 0%;
+  }
+  
+  .watch-cat {
+    width: 23%;
+    height: auto;
+    margin: 0.5vh 0.5vw;
+    display: inline-block;
+    /* display: flex; */
+    /* text-align: center; */
+  }
+  
+  .responsive {
+    max-width: 100%;
+    height: auto;
+  }
+  
+  /* below code is to make 4 images responsive(smart watch, xylys,tommy,buds) -------------------*/
+  @media screen and (max-width:770px) {
+    .catagories {
+      width: 100%;
+      height: auto;
+      /* display: inline-block; */
+      text-align: center;
+      margin: 2% 0%;
+    }
+  
+    .watch-cat {
+      width: 46%;
+      height: auto;
+      margin: 0.5vh 0.5vw;
+    }
+  }
